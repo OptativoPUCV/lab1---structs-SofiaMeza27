@@ -73,7 +73,7 @@ int checkSorted(int arr[], int size)
   int ascendente = 1;
   int descendente = 1;
 
-  for(int i = 0; i < size ; i++)
+  for(int i = 1; i < size ; i++)
   {
     if(arr[i] < arr[i - 1])
     {
@@ -88,11 +88,13 @@ int checkSorted(int arr[], int size)
   if(ascendente == 1)
   {
     return 1;
-  } else if (descendente == 1)
+  } 
+  else if (descendente == 1)
   {
     return -1;
   }
-  else{
+  else
+  {
     return 0;
   }
 }
