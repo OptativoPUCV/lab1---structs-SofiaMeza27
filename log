@@ -104,3 +104,9 @@ ju., 17 de ago. de 2023 16:42:04:
  tests:  0|5
 total_score: 20/70
 d4876c7
+ju., 17 de ago. de 2023 16:45:09: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|5
+total_score: 20/70
+7370c4e
