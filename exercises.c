@@ -206,4 +206,19 @@ typedef struct nodo {
   struct nodo *siguiente; // puntero al siguiente nodo
 } Nodo;
 
+Nodo* nuevoNodo (int numero) {
+  Nodo *nuevo = (Nodo*)malloc(sizeof(nuevo));
+  if (nuevo == NULL) {
+      ("Error al asignar memoria");
+      exit(1);
+  }
+  nuevo->numero = numero;
+  nuevo->siguiente = NULL;
+  return nuevo; 
+}
+
+Nodo* insertar {
+
+}
+
 Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
