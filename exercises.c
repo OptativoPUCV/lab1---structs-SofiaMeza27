@@ -80,7 +80,7 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
     }
   }
 
-  newSize = cont;
+  *newSize = cont;
   
   return numPares;
 }
