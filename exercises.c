@@ -206,10 +206,11 @@ typedef struct nodo {
   struct nodo *siguiente; // puntero al siguiente nodo
 } Nodo;
 
+
 Nodo* nuevoNodo (int numero) {
   Nodo *nuevo = (Nodo*)malloc(sizeof(nuevo));
   if (nuevo == NULL) {
-      ("Error al asignar memoria");
+      printf("Error al asignar memoria");
       exit(1);
   }
   nuevo->numero = numero;
@@ -217,8 +218,20 @@ Nodo* nuevoNodo (int numero) {
   return nuevo; 
 }
 
-//Nodo* insertar {
 
-//}
+Nodo *crearListaEnlazada(int arr[], int size) { 
+  
 
-Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
+  if (size == 0) return NULL;
+
+  Nodo *cabeza = nuevoNodo(arr[0]);
+  Nodo *actual = cabeza;
+  
+  for (int i = 1; i <= size; i++) {
+    actual->siguiente = nuevoNodo(arr[i]);
+    actual = actual->siguiente;
+  }
+  return cabeza;
+
+  return NULL;
+}
