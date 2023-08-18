@@ -227,7 +227,7 @@ Nodo *crearListaEnlazada(int arr[], int size) {
   Nodo *cabeza = nuevoNodo(arr[0]);
   Nodo *actual = cabeza;
   
-  for (int i = 1; i <= size; i++) {
+  for (int i = 1; i < size; i++) {
     actual->siguiente = nuevoNodo(arr[i]);
     actual = actual->siguiente;
   }
