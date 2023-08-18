@@ -175,3 +175,16 @@ exercises.c:104:5: error: expected ';' before '}' token
      ^
 Compilation failed
 0c484ac
+vi., 18 de ago. de 2023  0:58:58: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'mergeSortedArrays':
+exercises.c:104:5: error: expected ';' before '}' token
+     }
+     ^
+exercises.c:116:5: error: expected ';' before 'j'
+     j++;
+     ^
+Compilation failed
+fc6a183
