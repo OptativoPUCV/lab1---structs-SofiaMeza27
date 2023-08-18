@@ -243,3 +243,14 @@ exercises.c:220:16: error: expected '=', ',', ';', 'asm' or '__attribute__' befo
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0a55472
+vi., 18 de ago. de 2023  1:48:20: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:1:0:
+exercises.c: In function 'nuevoNodo':
+exercises.c:212:7: error: statement with no effect [-Werror=unused-value]
+       ("Error al asignar memoria");
+       ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+ca1a4a8

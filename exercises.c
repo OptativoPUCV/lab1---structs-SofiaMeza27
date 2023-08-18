@@ -217,8 +217,8 @@ Nodo* nuevoNodo (int numero) {
   return nuevo; 
 }
 
-Nodo* insertar {
+//Nodo* insertar {
 
-}
+//}
 
 Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
