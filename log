@@ -188,3 +188,13 @@ exercises.c:116:5: error: expected ';' before 'j'
      ^
 Compilation failed
 fc6a183
+vi., 18 de ago. de 2023  1:01:26: 
+ exercises.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+In file included from test.c:1:0:
+exercises.c: In function 'mergeSortedArrays':
+exercises.c:106:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation failed
+0417c80
