@@ -148,3 +148,14 @@ exercises.c:86:1: error: control reaches end of non-void function [-Werror=retur
 cc1.exe: all warnings being treated as errors
 Compilation failed
 f33ff4a
+vi., 18 de ago. de 2023  0:37:47: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'filterEvenNumbers':
+exercises.c:83:11: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+   newSize = cont;
+           ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+428cf41
