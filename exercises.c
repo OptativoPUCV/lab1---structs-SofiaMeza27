@@ -59,6 +59,30 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
       cont++;
     }
   }
+  
+  int *NumPares = (int*)malloc(cont *sizeof(int));
+  for(int i = 0; i < size ; i++)
+  {
+    if(numPares == NULL)
+    {
+      *newSize = 0;
+      return NULL;
+    }
+  }
+
+  int aux = 0;
+  for(int i = 0; i < size; i++)
+  {
+    if(arr[i] % 2 == 0)
+    {
+      numPares[aux] = arr[i];
+      aux++;
+    }
+  }
+
+  newSize = cont;
+  
+  return numPares;
 }
 
 /*
