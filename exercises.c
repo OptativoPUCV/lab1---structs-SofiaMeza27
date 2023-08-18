@@ -232,6 +232,4 @@ Nodo *crearListaEnlazada(int arr[], int size) {
     actual = actual->siguiente;
   }
   return cabeza;
-
-  return NULL;
 }
